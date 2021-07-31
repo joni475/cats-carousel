@@ -58,28 +58,6 @@ img {
   object-fit: cover;
 }
 
-/* .carousel-img {
-    left: 0;
-}
-.carousel-img:nth-child(2) {
-  left: 700px;
-}
-.carousel-img:nth-child(3) {
-    left: 1400px;
-  }
-  .carousel-img:nth-child(4) {
-    left: 2100px;
-  }
-  .carousel-img:nth-child(5) {
-    left: 2800px;
-  }
-  .carousel-img:nth-child(6) {
-    left: 3500px;
-  }
-  .carousel-img:nth-child(7) {
-    left: 4200px;
-  } */
-
 .carousel__dots {
     display: flex;
     align-items: center;
