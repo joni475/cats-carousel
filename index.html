@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="carousel">
+       
+      <button class="previous-button" hidden>Prev</button>
+
+      <div class="carousel-container">
+          <ul class="carousel__image-ul">
+              <li class="carousel-img is-selected"><img src="./images/01.jpg" alt="cat"></li>
+              <li class="carousel-img"><img src="./images/02.jpg" alt="cat"></li>
+              <li class="carousel-img"><img src="./images/03.jpg" alt="cat"></li>
+              <li class="carousel-img"><img src="./images/04.jpg" alt="cat"></li>
+              <li class="carousel-img"><img src="./images/05.jpg" alt="cat"></li>
+              <li class="carousel-img"><img src="./images/06.jpg" alt="cat"></li>
+              <li class="carousel-img"><img src="./images/07.jpg" alt="cat"></li>
+          </ul>
+      </div>
+
+      <button class="next-button">Next</button>
+
+      <div class="carousel__dots">
+          <button class="carousel-dot is-selected"></button>
+          <button class="carousel-dot"></button>
+          <button class="carousel-dot"></button>
+          <button class="carousel-dot"></button>
+          <button class="carousel-dot"></button>
+          <button class="carousel-dot"></button>
+          <button class="carousel-dot"></button>
+      </div>
+
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
