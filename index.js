@@ -16,7 +16,7 @@ nextBtn.addEventListener("click", event => {
    const currentSlide = carousel.querySelector(".is-selected")
    const nextSlide = currentSlide.nextElementSibling
    const destination = getComputedStyle(nextSlide).left
-   contents.style.left = "-" + destination
+   contents.style.transform = "translateX(-" + destination + ")"
 
    currentSlide.classList.remove("is-selected")
    nextSlide.classList.add("is-selected")
@@ -37,7 +37,7 @@ prevBtn.addEventListener("click", event => {
   const currentSlide = carousel.querySelector(".is-selected")
   const previousSlide = currentSlide.previousElementSibling
   const destination = getComputedStyle(previousSlide).left
-  contents.style.left = "-" + destination
+  contents.style.transform = "translateX(-" + destination + ")"
 
   currentSlide.classList.remove("is-selected")
   previousSlide.classList.add("is-selected")
@@ -67,7 +67,7 @@ carouselDot.forEach(dot => {
 
    const currentSlide = slide[indexDot]
    const destination = getComputedStyle(currentSlide).left
-   contents.style.left = "-" + destination
+   contents.style.transform = "translateX(-" + destination + ")"
 
    slide.forEach(d => {d.classList.remove("is-selected")})
    currentSlide.classList.add("is-selected")
